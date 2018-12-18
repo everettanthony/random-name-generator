@@ -1,0 +1,35 @@
+.rando {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  padding: 60px; }
+  .rando-wrap {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 265px;
+    justify-content: space-between;
+    width: 900px; }
+  .rando-names {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 100%; }
+  .rando-box {
+    align-items: center;
+    background: #fcfcfc;
+    background: linear-gradient(to bottom, #fcfcfc 1%, #eaeaea 100%);
+    border: 1px solid #b9b9b9;
+    display: flex;
+    font-size: 28px;
+    font-weight: 700;
+    height: 200px;
+    justify-content: center;
+    width: 285px; }
+  .rando-start:focus {
+    box-shadow: none; }
+  .rando .hidden {
+    visibility: hidden; }
+
+/*# sourceMappingURL=styles.css.map */
